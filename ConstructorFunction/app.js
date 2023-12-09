@@ -1,4 +1,4 @@
-// 생성자 함수에 대헤 공부를 하는 것이다.
+// 생성자 함수에 대해 공부를 하는 것이다.
 function Item(title, price) {
     // this = {}            <= this는 중괄호를 의미한다.
     this.title = title;
