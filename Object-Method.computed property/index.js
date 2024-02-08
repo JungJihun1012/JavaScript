@@ -35,13 +35,26 @@ console.log( Objuser);
 
 // 출력 값은 { name: 'Bike', age: 20} 이렇게 나오게 된다.
 
+
 const keyUser = {
     name: 'Jihun',
     age: 17,
     gender: 'male'
+
 }
 
 Object.keys(keyUser);
 console.log(keyUser);
 
-// 오늘의 js 공부는 여기까지 하겠음.
+let Age = 'age'
+
+const nowUser = {
+    name: 'Hong',
+    [Age] : 18,
+    gender: 'female'
+}
+
+Object.keys(nowUser);
+console.log(nowUser);
+
+// Object를 한번 더 활용을 하였다.
